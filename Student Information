@@ -1,0 +1,11 @@
+class Student:
+    def __init__(self):
+        self.name='Swapnil'
+        self.age=23
+        self.marks=900
+    def talk(self):
+        print('Hi i am',self.name)
+        print('hi age is',self.age)
+        print('my mark is',self.marks)
+s1=Student()
+s1.talk()
